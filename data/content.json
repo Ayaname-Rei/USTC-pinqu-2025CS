@@ -1,0 +1,466 @@
+{
+  "generatedAt": "2026-04-29T05:51:58.853Z",
+  "settings": {
+    "featuredPerMonth": 1,
+    "journalRule": "期刊目录建议为：期刊/YYYY年M月/标题 (作者).pdf；若 PDF 在子文件夹中，子文件夹名需为：标题 (作者)。期刊样例会被忽略。",
+    "photoRule": "班级风采图片需为：名称_YYYYMMDD.jpg。"
+  },
+  "stats": {
+    "journals": 19,
+    "photos": 23,
+    "timelineMonths": 4,
+    "companionMonths": 8
+  },
+  "journals": [
+    {
+      "title": "回溯",
+      "author": "梁九畦",
+      "issue": "2026年04月",
+      "year": 2026,
+      "month": 4,
+      "sortValue": 202604,
+      "href": "期刊/2026年4月/回溯 (梁九畦).pdf"
+    },
+    {
+      "title": "力学_第一章_质点动力学",
+      "author": "梁九畦",
+      "issue": "2026年04月",
+      "year": 2026,
+      "month": 4,
+      "sortValue": 202604,
+      "href": "期刊/2026年4月/力学_第一章_质点动力学 (梁九畦).pdf"
+    },
+    {
+      "title": "三重积分区域判断总结",
+      "author": "梁九畦",
+      "issue": "2026年04月",
+      "year": 2026,
+      "month": 4,
+      "sortValue": 202604,
+      "href": "期刊/2026年4月/三重积分区域判断总结 (梁九畦).pdf"
+    },
+    {
+      "title": "数据结构_树",
+      "author": "梁九畦",
+      "issue": "2026年04月",
+      "year": 2026,
+      "month": 4,
+      "sortValue": 202604,
+      "href": "期刊/2026年4月/数据结构_树 (梁九畦).pdf"
+    },
+    {
+      "title": "kmp",
+      "author": "曲培鑫",
+      "issue": "2026年03月",
+      "year": 2026,
+      "month": 3,
+      "sortValue": 202603,
+      "href": "期刊/2026年3月/kmp (曲培鑫)/kmp_oj_practice.pdf"
+    },
+    {
+      "title": "numbertheory1",
+      "author": "逄佳烨",
+      "issue": "2026年03月",
+      "year": 2026,
+      "month": 3,
+      "sortValue": 202603,
+      "href": "期刊/2026年3月/numbertheory1 (逄佳烨).pdf"
+    },
+    {
+      "title": "不定积分求解 1",
+      "author": "梁九畦",
+      "issue": "2025年12月",
+      "year": 2025,
+      "month": 12,
+      "sortValue": 202512,
+      "href": "期刊/2025年12月/不定积分求解 1 (梁九畦).pdf"
+    },
+    {
+      "title": "现代武林秘籍1219",
+      "author": "徐俊睿",
+      "issue": "2025年12月",
+      "year": 2025,
+      "month": 12,
+      "sortValue": 202512,
+      "href": "期刊/2025年12月/现代武林秘籍1219 (徐俊睿).pdf"
+    },
+    {
+      "title": "相似部分总结",
+      "author": "梁九畦",
+      "issue": "2025年12月",
+      "year": 2025,
+      "month": 12,
+      "sortValue": 202512,
+      "href": "期刊/2025年12月/相似部分总结 (梁九畦).pdf"
+    },
+    {
+      "title": "秩总结 1",
+      "author": "梁九畦",
+      "issue": "2025年12月",
+      "year": 2025,
+      "month": 12,
+      "sortValue": 202512,
+      "href": "期刊/2025年12月/秩总结 1 (梁九畦).pdf"
+    },
+    {
+      "title": "关于数分证明的严谨性",
+      "author": "逄佳烨",
+      "issue": "2025年11月",
+      "year": 2025,
+      "month": 11,
+      "sortValue": 202511,
+      "href": "期刊/2025年11月/关于数分证明的严谨性 (逄佳烨).pdf"
+    },
+    {
+      "title": "现代第四章矩阵总结",
+      "author": "徐俊睿",
+      "issue": "2025年11月",
+      "year": 2025,
+      "month": 11,
+      "sortValue": 202511,
+      "href": "期刊/2025年11月/现代第四章矩阵总结 (徐俊睿).pdf"
+    },
+    {
+      "title": "现代武林秘籍 补充",
+      "author": "徐俊睿",
+      "issue": "2025年11月",
+      "year": 2025,
+      "month": 11,
+      "sortValue": 202511,
+      "href": "期刊/2025年11月/现代武林秘籍 补充 (徐俊睿).pdf"
+    },
+    {
+      "title": "不用洛必达大战一道不定式型函数极限",
+      "author": "逄佳烨",
+      "issue": "2025年10月",
+      "year": 2025,
+      "month": 10,
+      "sortValue": 202510,
+      "href": "期刊/2025年10月/不用洛必达大战一道不定式型函数极限 (逄佳烨).pdf"
+    },
+    {
+      "title": "希望更丰富的展现？使用 Markdown、LaTeX",
+      "author": "逄佳烨",
+      "issue": "2025年10月",
+      "year": 2025,
+      "month": 10,
+      "sortValue": 202510,
+      "href": "期刊/2025年10月/希望更丰富的展现？使用 Markdown、LaTeX (逄佳烨).pdf"
+    },
+    {
+      "title": "线代矩阵",
+      "author": "陈虹伊",
+      "issue": "2025年10月",
+      "year": 2025,
+      "month": 10,
+      "sortValue": 202510,
+      "href": "期刊/2025年10月/线代矩阵 (陈虹伊).pdf"
+    },
+    {
+      "title": "线性代数（行列式题型总结）",
+      "author": "梁九畦",
+      "issue": "2025年10月",
+      "year": 2025,
+      "month": 10,
+      "sortValue": 202510,
+      "href": "期刊/2025年10月/线性代数（行列式题型总结） (梁九畦).pdf"
+    },
+    {
+      "title": "线性代数例题（赵立璐班）（截止十一）",
+      "author": "梁九畦",
+      "issue": "2025年10月",
+      "year": 2025,
+      "month": 10,
+      "sortValue": 202510,
+      "href": "期刊/2025年10月/线性代数例题（赵立璐班）（截止十一） (梁九畦).pdf"
+    },
+    {
+      "title": "杨惠茗笔记~",
+      "author": "杨惠茗",
+      "issue": "2025年10月",
+      "year": 2025,
+      "month": 10,
+      "sortValue": 202510,
+      "href": "期刊/2025年10月/杨惠茗笔记~ (杨惠茗).pdf"
+    }
+  ],
+  "photos": [
+    {
+      "name": "包饺子馅",
+      "date": "2026-01-01",
+      "displayDate": "2026.01.01",
+      "monthKey": "2026-01",
+      "monthLabel": "2026年01月",
+      "sortValue": 20260101,
+      "src": "班级风采/包饺子馅_20260101.jpg"
+    },
+    {
+      "name": "新年包饺子",
+      "date": "2026-01-01",
+      "displayDate": "2026.01.01",
+      "monthKey": "2026-01",
+      "monthLabel": "2026年01月",
+      "sortValue": 20260101,
+      "src": "班级风采/新年包饺子_20260101.jpg"
+    },
+    {
+      "name": "新年包饺子2",
+      "date": "2026-01-01",
+      "displayDate": "2026.01.01",
+      "monthKey": "2026-01",
+      "monthLabel": "2026年01月",
+      "sortValue": 20260101,
+      "src": "班级风采/新年包饺子2_20260101.jpg"
+    },
+    {
+      "name": "新年包饺子3",
+      "date": "2026-01-01",
+      "displayDate": "2026.01.01",
+      "monthKey": "2026-01",
+      "monthLabel": "2026年01月",
+      "sortValue": 20260101,
+      "src": "班级风采/新年包饺子3_20260101.jpg"
+    },
+    {
+      "name": "新年包饺子4",
+      "date": "2026-01-01",
+      "displayDate": "2026.01.01",
+      "monthKey": "2026-01",
+      "monthLabel": "2026年01月",
+      "sortValue": 20260101,
+      "src": "班级风采/新年包饺子4_20260101.jpg"
+    },
+    {
+      "name": "宋谦庆生2",
+      "date": "2025-12-12",
+      "displayDate": "2025.12.12",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251212,
+      "src": "班级风采/宋谦庆生2_20251212.jpg"
+    },
+    {
+      "name": "宋谦生日照片",
+      "date": "2025-12-12",
+      "displayDate": "2025.12.12",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251212,
+      "src": "班级风采/宋谦生日照片_20251212.jpg"
+    },
+    {
+      "name": "烤肉",
+      "date": "2025-12-07",
+      "displayDate": "2025.12.07",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251207,
+      "src": "班级风采/烤肉_20251207.jpg"
+    },
+    {
+      "name": "烧烤准备",
+      "date": "2025-12-07",
+      "displayDate": "2025.12.07",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251207,
+      "src": "班级风采/烧烤准备_20251207.jpg"
+    },
+    {
+      "name": "心理团日活动",
+      "date": "2025-12-07",
+      "displayDate": "2025.12.07",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251207,
+      "src": "班级风采/心理团日活动_20251207.jpg"
+    },
+    {
+      "name": "心理团日活动之看电影",
+      "date": "2025-12-07",
+      "displayDate": "2025.12.07",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251207,
+      "src": "班级风采/心理团日活动之看电影_20251207.jpg"
+    },
+    {
+      "name": "心理团日活动之烧烤",
+      "date": "2025-12-07",
+      "displayDate": "2025.12.07",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251207,
+      "src": "班级风采/心理团日活动之烧烤_20251207.jpg"
+    },
+    {
+      "name": "心理团日活动之烧烤2",
+      "date": "2025-12-07",
+      "displayDate": "2025.12.07",
+      "monthKey": "2025-12",
+      "monthLabel": "2025年12月",
+      "sortValue": 20251207,
+      "src": "班级风采/心理团日活动之烧烤2_20251207.jpg"
+    },
+    {
+      "name": "班级晚会",
+      "date": "2025-10-18",
+      "displayDate": "2025.10.18",
+      "monthKey": "2025-10",
+      "monthLabel": "2025年10月",
+      "sortValue": 20251018,
+      "src": "班级风采/班级晚会_20251018.jpg"
+    },
+    {
+      "name": "曹老师会议照片",
+      "date": "2025-09-21",
+      "displayDate": "2025.09.21",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250921,
+      "src": "班级风采/曹老师会议照片_20250921.jpg"
+    },
+    {
+      "name": "曹老师主持人会议",
+      "date": "2025-09-21",
+      "displayDate": "2025.09.21",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250921,
+      "src": "班级风采/曹老师主持人会议_20250921.jpg"
+    },
+    {
+      "name": "图书馆瀚海漫游",
+      "date": "2025-09-21",
+      "displayDate": "2025.09.21",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250921,
+      "src": "班级风采/图书馆瀚海漫游_20250921.jpg"
+    },
+    {
+      "name": "教官班会",
+      "date": "2025-09-12",
+      "displayDate": "2025.09.12",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250912,
+      "src": "班级风采/教官班会_20250912.jpg"
+    },
+    {
+      "name": "教官蛋糕",
+      "date": "2025-09-12",
+      "displayDate": "2025.09.12",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250912,
+      "src": "班级风采/教官蛋糕_20250912.jpg"
+    },
+    {
+      "name": "教官蛋糕1",
+      "date": "2025-09-12",
+      "displayDate": "2025.09.12",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250912,
+      "src": "班级风采/教官蛋糕1_20250912.jpg"
+    },
+    {
+      "name": "军训教官蛋糕",
+      "date": "2025-09-12",
+      "displayDate": "2025.09.12",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250912,
+      "src": "班级风采/军训教官蛋糕_20250912.jpg"
+    },
+    {
+      "name": "开学典礼大合照",
+      "date": "2025-09-12",
+      "displayDate": "2025.09.12",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250912,
+      "src": "班级风采/开学典礼大合照_20250912.jpg"
+    },
+    {
+      "name": "曹老板教师节花束",
+      "date": "2025-09-10",
+      "displayDate": "2025.09.10",
+      "monthKey": "2025-09",
+      "monthLabel": "2025年09月",
+      "sortValue": 20250910,
+      "src": "班级风采/曹老板教师节花束_20250910.jpg"
+    }
+  ],
+  "timeline": [
+    {
+      "key": "2026-01",
+      "label": "2026年01月",
+      "sortValue": 20260101,
+      "count": 5,
+      "photos": [
+        {
+          "name": "包饺子馅",
+          "date": "2026-01-01",
+          "displayDate": "2026.01.01",
+          "monthKey": "2026-01",
+          "monthLabel": "2026年01月",
+          "sortValue": 20260101,
+          "src": "班级风采/包饺子馅_20260101.jpg"
+        }
+      ]
+    },
+    {
+      "key": "2025-12",
+      "label": "2025年12月",
+      "sortValue": 20251212,
+      "count": 8,
+      "photos": [
+        {
+          "name": "宋谦庆生2",
+          "date": "2025-12-12",
+          "displayDate": "2025.12.12",
+          "monthKey": "2025-12",
+          "monthLabel": "2025年12月",
+          "sortValue": 20251212,
+          "src": "班级风采/宋谦庆生2_20251212.jpg"
+        }
+      ]
+    },
+    {
+      "key": "2025-10",
+      "label": "2025年10月",
+      "sortValue": 20251018,
+      "count": 1,
+      "photos": [
+        {
+          "name": "班级晚会",
+          "date": "2025-10-18",
+          "displayDate": "2025.10.18",
+          "monthKey": "2025-10",
+          "monthLabel": "2025年10月",
+          "sortValue": 20251018,
+          "src": "班级风采/班级晚会_20251018.jpg"
+        }
+      ]
+    },
+    {
+      "key": "2025-09",
+      "label": "2025年09月",
+      "sortValue": 20250921,
+      "count": 9,
+      "photos": [
+        {
+          "name": "曹老师会议照片",
+          "date": "2025-09-21",
+          "displayDate": "2025.09.21",
+          "monthKey": "2025-09",
+          "monthLabel": "2025年09月",
+          "sortValue": 20250921,
+          "src": "班级风采/曹老师会议照片_20250921.jpg"
+        }
+      ]
+    }
+  ]
+}

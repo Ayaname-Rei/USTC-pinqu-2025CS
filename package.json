@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "node scripts/generate-content.mjs",
+    "sync": "node scripts/generate-content.mjs"
+  },
+  "devDependencies": {}
+}
