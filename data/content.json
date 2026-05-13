@@ -1,17 +1,26 @@
 {
-  "generatedAt": "2026-04-29T05:51:58.853Z",
+  "generatedAt": "2026-05-13T07:22:12.566Z",
   "settings": {
     "featuredPerMonth": 1,
     "journalRule": "期刊目录建议为：期刊/YYYY年M月/标题 (作者).pdf；若 PDF 在子文件夹中，子文件夹名需为：标题 (作者)。期刊样例会被忽略。",
     "photoRule": "班级风采图片需为：名称_YYYYMMDD.jpg。"
   },
   "stats": {
-    "journals": 19,
+    "journals": 20,
     "photos": 23,
     "timelineMonths": 4,
-    "companionMonths": 8
+    "companionMonths": 9
   },
   "journals": [
+    {
+      "title": "不详细揭秘 KMP 算法的原理",
+      "author": "逄佳烨",
+      "issue": "2026年04月",
+      "year": 2026,
+      "month": 4,
+      "sortValue": 202604,
+      "href": "期刊/2026年4月/不详细揭秘 KMP 算法的原理 (逄佳烨).pdf"
+    },
     {
       "title": "回溯",
       "author": "梁九畦",
