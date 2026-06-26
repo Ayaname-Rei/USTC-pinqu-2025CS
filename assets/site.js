@@ -14,6 +14,9 @@ const selectors = {
   navShell: document.querySelector(".nav-shell"),
   navToggle: document.querySelector(".nav-toggle"),
   navLinks: document.querySelector("#nav-links"),
+  statJournals: document.querySelector("#stat-journals"),
+  statPhotos: document.querySelector("#stat-photos"),
+  statMonths: document.querySelector("#stat-months"),
 };
 
 let railSyncQueued = false;
@@ -236,6 +239,18 @@ function renderGallery() {
   });
 }
 
+function renderStats(content) {
+  if (selectors.statJournals) {
+    selectors.statJournals.textContent = String(content.stats?.journals ?? content.journals.length);
+  }
+  if (selectors.statPhotos) {
+    selectors.statPhotos.textContent = String(content.stats?.photos ?? content.photos.length);
+  }
+  if (selectors.statMonths) {
+    selectors.statMonths.textContent = String(content.stats?.timelineMonths ?? content.timeline.length);
+  }
+}
+
 function openPreview(photo) {
   selectors.previewImage.src = encodeURI(photo.src);
   selectors.previewImage.alt = photo.name;
@@ -261,6 +276,7 @@ async function loadContent() {
 
     const content = await response.json();
     state.content = content;
+    renderStats(content);
     renderJournals(content.journals);
     renderTimeline(content.timeline);
     renderGallery();
