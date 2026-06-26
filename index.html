@@ -7,10 +7,16 @@
   <link rel="icon" href="assets/icon.ico" type="image/x-icon" sizes="any">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="assets/site.webmanifest">
-  <meta name="theme-color" content="#f4efe3">
+  <meta name="theme-color" content="#fff4d8">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+  <div class="site-backdrop" aria-hidden="true">
+    <span class="orb orb-one"></span>
+    <span class="orb orb-two"></span>
+    <span class="orb orb-three"></span>
+  </div>
+
   <header class="site-header">
     <nav class="nav-shell" aria-label="主导航">
       <a class="brand" href="#top" aria-label="回到首页">
@@ -69,6 +75,24 @@
       </div>
     </section>
 
+    <section class="wiki-map" aria-label="内容地图">
+      <a class="wiki-card" href="#journals">
+        <span class="wiki-card-index">01</span>
+        <strong>Journal Archive</strong>
+        <small>按月份归档学习期刊与专题笔记</small>
+      </a>
+      <a class="wiki-card" href="#timeline">
+        <span class="wiki-card-index">02</span>
+        <strong>Class Timeline</strong>
+        <small>用时间线串起班级活动与集体瞬间</small>
+      </a>
+      <a class="wiki-card" href="#gallery">
+        <span class="wiki-card-index">03</span>
+        <strong>Photo Gallery</strong>
+        <small>集中浏览、点击预览全部照片记录</small>
+      </a>
+    </section>
+
     <section class="section-shell journal-section" id="journals" aria-labelledby="journals-title">
       <div class="section-heading">
         <p class="eyebrow">Journal Archive</p>
@@ -105,6 +129,12 @@
     <p>USTC 2025 CS · 学习资料与班级记忆共同维护</p>
     <a href="#top">回到顶部</a>
   </footer>
+
+  <button class="back-to-top" type="button" aria-label="回到顶部" title="Back To Top">
+    <span class="back-to-top-ring" aria-hidden="true"></span>
+    <span class="back-to-top-arrow" aria-hidden="true">↑</span>
+    <span class="back-to-top-label" aria-hidden="true">TOP</span>
+  </button>
 
   <div class="preview-modal" id="photo-preview" role="dialog" aria-modal="true" aria-label="照片预览" hidden>
     <button class="preview-backdrop" type="button" data-preview-close aria-label="关闭预览"></button>

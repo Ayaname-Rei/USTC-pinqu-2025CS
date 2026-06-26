@@ -17,6 +17,7 @@ const selectors = {
   statJournals: document.querySelector("#stat-journals"),
   statPhotos: document.querySelector("#stat-photos"),
   statMonths: document.querySelector("#stat-months"),
+  backToTop: document.querySelector(".back-to-top"),
 };
 
 let railSyncQueued = false;
@@ -127,6 +128,15 @@ function scheduleRailSync() {
     railSyncQueued = false;
     syncActiveRail();
   });
+}
+
+function updateBackToTop() {
+  if (!selectors.backToTop) return;
+
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = scrollable > 0 ? Math.min(window.scrollY / scrollable, 1) : 0;
+  selectors.backToTop.style.setProperty("--backtop-progress", `${progress * 360}deg`);
+  selectors.backToTop.classList.toggle("is-visible", window.scrollY > 360);
 }
 
 function renderJournals(journals) {
@@ -300,6 +310,13 @@ selectors.navLinks.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", closeMobileNav);
 });
 
+if (selectors.backToTop) {
+  selectors.backToTop.addEventListener("click", () => {
+    closeMobileNav();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && !selectors.preview.hidden) {
     closePreview();
@@ -310,7 +327,14 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-window.addEventListener("scroll", scheduleRailSync, { passive: true });
-window.addEventListener("resize", scheduleRailSync);
+window.addEventListener("scroll", () => {
+  scheduleRailSync();
+  updateBackToTop();
+}, { passive: true });
+window.addEventListener("resize", () => {
+  scheduleRailSync();
+  updateBackToTop();
+});
 
 loadContent();
+updateBackToTop();
